@@ -28,9 +28,3 @@ class Ball(Turtle):
     def default_position(self):
         self.goto(0, 0)
         self.bounce_x()
-
-
-
-
-#    def bounce_paddles(self):
-#        if self.distance(paddle1) <10 or self.distance(paddle2) <10:
